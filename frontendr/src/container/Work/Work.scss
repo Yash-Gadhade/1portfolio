@@ -31,15 +31,17 @@
             padding: 1rem 2rem;
             border-radius: 0.85rem;
         }
-        
+
         @media screen and (max-width:600px) {
             padding: 1rem 2rem;
             border-radius: 0.85rem;
-        }  
-        
+            justify-content: space-evenly;
+        }
+
         @media screen and (max-width:400px) {
             padding: 1rem 2rem;
             border-radius: 0.85rem;
+            justify-content: space-evenly;
         }
 
     }
