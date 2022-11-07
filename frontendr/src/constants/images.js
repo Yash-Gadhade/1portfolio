@@ -22,6 +22,8 @@ import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
+import javas from '../assets/javas.png';
+import mongo from '../assets/mongo.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -53,6 +55,7 @@ export default {
     react,
     redux,
     sass,
+    javas,
     typescript,
     vue,
     about01,
@@ -63,6 +66,7 @@ export default {
     circle,
     // logo,
     adidas,
+    mongo,
     amazon,
     asus,
     bolt,

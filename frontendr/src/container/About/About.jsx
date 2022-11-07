@@ -17,11 +17,12 @@ const About = () => {
     return (
         <>
             <h2 className='head-text'>
-                I know that
-                <span> Good Development </span>
+                I love to be an
                 <br />
+                <span>All-Rounder</span>
+                {/* <br />
                 means
-                <span> Good Business</span>
+                <span> Good Business</span> */}
             </h2>
             <div className='app__profiles'>
                 {abouts.map((about, index) => (
@@ -35,6 +36,7 @@ const About = () => {
                         <img src={urlFor(about.imgUrl)} alt={about.title} />
                         <h2 className='bold-text' style={{ marginTop: 20 }}>{about.title}</h2>
                         <p className='p-text' style={{ marginTop: 10 }}>{about.description}</p>
+                        {/* <h3 className='text' style={{ marginTop: 20 }}> {about.link}</h3> */}
                     </motion.div>
                 ))}
             </div>
@@ -43,7 +45,7 @@ const About = () => {
 }
 
 export default AppWrap(
-    MotionWrap(About,'app__about'),
-   'about',
-   "app__whitebg"
+    MotionWrap(About, 'app__about'),
+    'about',
+    "app__whitebg"
 );
