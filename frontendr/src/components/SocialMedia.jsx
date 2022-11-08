@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { BsTwitter, BsInstagram, BsLinkedin, BsWhatsapp, BsDiscord } from 'react-icons/bs'
-import { FaFacebookF } from 'react-icons/fa'
+import { BsTwitter, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
+
 
 
 const SocialMedia = () => {
