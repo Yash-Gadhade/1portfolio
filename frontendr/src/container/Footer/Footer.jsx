@@ -42,11 +42,15 @@ const Footer = () => {
             <div className="app__footer-cards">
                 <div className="app__footer-card ">
                     <img src={images.email} alt="email" />
-                    <a href="mailto:yashgadhade@gmail.com" className="p-text">yashgadhade@gmail.com</a>
+                    <a href="mailto:yashgadhade@gmail.com" className="p-text">
+                        yashgadhade@gmail.com
+                    </a>
                 </div>
                 <div className="app__footer-card">
                     <img src={images.mobile} alt="phone" />
-                    <a href="tel:+91 84549 73811" className="p-text">+91 84549 73811</a>
+                    <a href="https://calendly.com/yashgadhade" className="p-text">
+                        Schedule a Meeting
+                    </a>
                 </div>
             </div>
             {!isFormSubmitted ? (

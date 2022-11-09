@@ -62,6 +62,9 @@
 
 .app__footer-cards .app__footer-card:last-child {
     background-color: var(--white-color);
+    img{
+        width: 70px;
+    }
 }
 
 .app__footer-cards .app__footer-card:last-child:hover {
