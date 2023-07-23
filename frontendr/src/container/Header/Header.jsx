@@ -31,15 +31,15 @@ const Header = () => {
             </div>
           </div>
           <div className="tag-cmp app__flex">
-            <p className="p-text">Business Developer </p>
-          </div>
-          <div className="tag-cmp app__flex">
-            <a
-              href="https://drive.google.com/file/d/1o6YtJy5Ma2MClSFpDF_WyIr23qDPn68O/view?usp=drive_link"
-              target="_blank"
-            >
-              <p className="p-text">Click here for resume </p>
-            </a>
+            <p className="p-text ">
+              Business Developer <br />{" "}
+              <a
+                href="https://drive.google.com/file/d/1o6YtJy5Ma2MClSFpDF_WyIr23qDPn68O/view?usp=drive_link"
+                target="_blank"
+              >
+                Click Here for Resume
+              </a>{" "}
+            </p>
           </div>
         </div>
       </motion.div>
