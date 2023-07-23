@@ -34,7 +34,10 @@ const Header = () => {
             <p className="p-text">Business Developer </p>
           </div>
           <div className="tag-cmp app__flex">
-            <a href="https://drive.google.com/file/d/1o6YtJy5Ma2MClSFpDF_WyIr23qDPn68O/view?usp=drive_link">
+            <a
+              href="https://drive.google.com/file/d/1o6YtJy5Ma2MClSFpDF_WyIr23qDPn68O/view?usp=drive_link"
+              target="_blank"
+            >
               <p className="p-text">Click here for resume </p>
             </a>
           </div>
