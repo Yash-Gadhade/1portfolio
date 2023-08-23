@@ -32,13 +32,13 @@ const Header = () => {
           </div>
           <div className="tag-cmp app__flex">
             <p className="p-text ">
-              Business Developer <br />{" "}
-              <a
+              Engineering & Business Developer <br />{" "}
+              {/* <a
                 href="https://drive.google.com/file/d/1o6YtJy5Ma2MClSFpDF_WyIr23qDPn68O/view?usp=drive_link"
                 target="_blank"
               >
                 Click Here for Resume
-              </a>{" "}
+              </a>{" "} */}
             </p>
           </div>
         </div>
